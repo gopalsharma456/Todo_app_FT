@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+:root {
+  --theme-color: #3b82f6; /* Default Blue */
+  --theme-color-dark: #2563eb; /* Slightly Darker Blue */
+}
+
+/* Primary Button (Filled) */
+.btn-primary {
+  background-color: var(--theme-color);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--theme-color-dark);
+}
+
+/* Secondary Button (Outlined) */
+.btn-secondary {
+  border: 2px solid var(--theme-color);
+  color: var(--theme-color);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background-color: var(--theme-color);
+  color: white;
+}
+
+*:focus{
+  outline: none;
+}
