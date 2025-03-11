@@ -1,13 +1,6 @@
 {
   "todos": [
     {
-      "id": "dafa",
-      "title": "fjasdfl",
-      "description": "lkdfj",
-      "dueDate": "2025-02-25",
-      "completed": false
-    },
-    {
       "id": "68d9",
       "title": "dsgs",
       "description": "\nsdfdf",
@@ -25,7 +18,8 @@
       "id": "103f",
       "title": "task 22",
       "description": "desc 2342`",
-      "dueDate": "2025-02-27"
+      "dueDate": "2025-02-27",
+      "completed": true
     },
     {
       "id": "18e5",
@@ -43,6 +37,12 @@
       "id": "c6f4",
       "title": "task 45",
       "description": "desctrt",
+      "dueDate": "2025-02-28"
+    },
+    {
+      "id": "8dab",
+      "title": "dsfaskjfl",
+      "description": "lkjdfl",
       "dueDate": "2025-02-28"
     }
   ]
